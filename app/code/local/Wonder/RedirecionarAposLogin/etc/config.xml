@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<config>
+  <modules>
+    <Wonder_RedirecionarAposLogin>
+      <version>0.0.1</version>
+    </Wonder_RedirecionarAposLogin>
+  </modules>
+  <global>
+    <models>
+      <wonder_redirecionaraposlogin>
+        <class>Wonder_RedirecionarAposLogin_Model</class>
+      </wonder_redirecionaraposlogin>
+    </models>
+    <events>
+      <customer_login>
+        <observers>
+          <redirecionar_apos_login>
+            <class>Wonder_RedirecionarAposLogin_Model_Observer</class>
+            <method>redirecionar</method>
+          </redirecionar_apos_login>
+        </observers>
+      </customer_login>
+    </events>
+  </global>
+</config>
