@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout version="0.0.1">
+  <!-- Remove o step de frete da lista de progresso -->
+  <checkout_onepage_index>
+    <reference name="right">
+      <remove name="shippingmethod.progress" />
+    </reference>
+  </checkout_onepage_index>
+</layout>

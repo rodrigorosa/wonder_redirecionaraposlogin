@@ -22,4 +22,13 @@
       </customer_login>
     </events>
   </global>
+  <frontend>
+    <layout>
+      <updates>
+        <wonder_redirecionaraposlogin>
+          <file>wonder/redirecionaraposlogin.xml</file>
+        </wonder_redirecionaraposlogin>
+      </updates>
+    </layout>
+  </frontend>
 </config>
